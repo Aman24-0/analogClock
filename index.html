@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="/output.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body
+    class="bg-[radial-gradient(circle,_#F0B3FF,_#A18CD1)] h-screen w-full flex justify-center items-center"
+  >
+    <div
+      class="border-white text-2xl w-[300px] h-[300px] rounded-full bg-[radial-gradient(circle,_#D3B2FF,_#9C7CC3)] relative flex justify-center items-center"
+    >
+      <div id="center" class="absolute w-5 h-5 bg-black rounded-full"></div>
+      <div
+        id="hours"
+        class="absolute bg-[#4B0082] w-2 h-16 rounded origin-bottom bottom-1/2"
+      ></div>
+      <div
+        id="minutes"
+        class="absolute bg-[#708090] w-1.5 h-24 rounded origin-bottom bottom-1/2"
+      ></div>
+      <div
+        id="seconds"
+        class="absolute bg-[#FF7F50] w-1 h-32 rounded origin-bottom bottom-1/2"
+      ></div>
+
+      <div class="absolute top-[25px] right-20">1</div>
+      <div class="absolute top-[73px] right-9">2</div>
+      <div class="absolute right-3">3</div>
+      <div class="absolute bottom-[73px] right-9">4</div>
+      <div class="absolute bottom-[25px] right-20">5</div>
+      <div class="absolute bottom-3">6</div>
+      <div class="absolute bottom-[25px] left-20">7</div>
+      <div class="absolute bottom-[73px] left-9">8</div>
+      <div class="absolute left-3">9</div>
+      <div class="absolute top-[73px] left-9">10</div>
+      <div class="absolute top-[25px] left-20">11</div>
+      <div class="absolute top-3">12</div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
